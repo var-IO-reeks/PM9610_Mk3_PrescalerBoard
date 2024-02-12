@@ -1,5 +1,9 @@
 # PM9160_Mk3_PrescalerBoard
 
+![Logo](Images/PM9610_preview.png)
+
+This is a fork of SaabFANs original "PM9160_Mk3_PrescalerBoard"-Project. I fixed some minor KiCad-Related Layout issues, cleaned up the schematic a little bit to improve readability and made the Board compatible with Aislers "Beautiful Boards Budget Simple" PCB manufacturing service.
+
 This is a recreation of the PM9160 Prescaler-Board, used in the PM6654x Programmable Counters made by Philips back in the late 80s / early 90s. 
 It divides incoming frequencies by 16. With this, a 2.4 Ghz Signal can be counted by the "Counter on a Chip"-Hardware inside the Counter, to which the signal is routed internally on the Mainboard. 
 
