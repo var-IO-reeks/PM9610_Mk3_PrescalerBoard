@@ -1,4 +1,4 @@
-# PM9160_Mk3_PrescalerBoard
+# PM9610_Mk3_PrescalerBoard
 
 ![Logo](Images/PM9610_preview.png)
 

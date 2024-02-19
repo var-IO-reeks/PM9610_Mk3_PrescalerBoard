@@ -1,0 +1,21 @@
+######################
+Version  : 3
+Revision : B
+Date	 : 19.01.2024
+######################
+
+- Changed microcontroller from WSON-packaged Attiny1616 to SOIC-8-packaged Attiny412, making hand-soldering much more easier.
+- Minor changes to trace-layout (digital section only)
+- Changed LED Pin direction from current being sinked by the µC to being sourced through the LED to GND to simplify trace layout.
+- Changed R_0603/R_0402 footprints of the Capacitors to proper C_0603/C_0402 footprints 
+
+
+######################
+Version  : 3
+Revision : B
+Date	 : 12.01.2024
+######################
+
+- Fixed Kicad-related ERC and DRC issues 
+- Cleanup of schematic to improve readability
+- Changed constraints to make the board compatible with the "simple" design rule rating of the german PCB manufacturer Aisler
